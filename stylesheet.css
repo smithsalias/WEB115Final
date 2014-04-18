@@ -1,14 +1,19 @@
+body {
+     background-color: #ADA96E;
+}
+
 #header {
-	position: fixed;
+	position: relative;
 	width: 100%;
 	background-color: FFFF00;
 	color:#ADA96E;
+	text-align: center;
 }
 
 h4 {
-
-	font-family: Garamond, sans-serif;
-	color: #ADA96E;
+   font-family: Garamond, sans-serif;
+   color: #ADA96E;
+   text-align: left;
 }
 
 li {
@@ -20,23 +25,60 @@ a:link {
        text-decoration: none;
 }
 a:visited {
-           color: green;
-           text-decoration: none;
+          color: green;
+          text-decoration: none;
 }
 
 a:hover {
         color: green;
 }
 
+#navbar {
+	left:50%;
+	position:fixed;
+}
+
+ul{
+	list-style-type: square;
+	position: fixed;
+}
+
+#left{
+	float:left;
+	
+}
+
+p {
+	font-family: Verdana;
+	font-size: 12px;
+}
+
+#right{
+	float:right;
+	width:45%
+	
+}
+li {
+	display:inline;
+	border: 2px;
+	font-family: Verdana, Tahoma, sans-serif;
+	color: green;
+	border-radius: 5px 5px;
+	background-color: #ADA96E;
+	font-size: 12px;
+}
+
+
 #footer {
 	position: fixed;
 	background-color: FFFF00;
 	font-family: Verdana, sans-serif;
-	font-size: 12px;
+	font-size: 10px;
 	text-align: center;
 	color: #ADA96E;
 }
 
 #footer p {
 	position: relative;
+	text-align: center;
 }
