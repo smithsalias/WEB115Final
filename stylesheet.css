@@ -1,37 +1,35 @@
 #header {
 	position: fixed;
 	width: 100%;
-        margin-top: 0.2em;
 	background-color: FFFF00;
 	color:#ADA96E;
 }
 
 h4 {
-	margin-left: 5px;
-	margin-bottom: 15px;
+
 	font-family: Garamond, sans-serif;
 	color: #ADA96E;
 }
 
 li {
- list-style-type: square;
+   list-style-type: square;
 }
+
 a:link {
-  color: green;
-  text-decoration: none;
+       color: green;
+       text-decoration: none;
 }
 a:visited {
-  color: green;
-  text-decoration: none;
+           color: green;
+           text-decoration: none;
 }
 
 a:hover {
-  color: green;
+        color: green;
 }
 
 #footer {
-	position: relative;
-	height: 50px;
+	position: fixed;
 	background-color: FFFF00;
 	font-family: Verdana, sans-serif;
 	font-size: 12px;
@@ -41,5 +39,4 @@ a:hover {
 
 #footer p {
 	position: relative;
-	padding-top: 15px;
 }
