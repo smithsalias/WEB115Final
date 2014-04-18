@@ -5,7 +5,7 @@
 	background-color: FFFF00;
 }
 
-h4 {
+h4, #title {
 	margin-left: 5px;
 	margin-bottom: 15px;
 	font-family: Garamond, sans-serif;
@@ -13,11 +13,19 @@ h4 {
 }
 
 li {
-	list-style-type: square;
+ list-style-type: square;
+}
+a:link {
+  color: green;
+  text-decoration: none;
+}
+a:visited {
+  color: green;
+  text-decoration: none;
 }
 
 a:hover {
-	font-color: green;
+	color: green;
 }
 
 #footer {
