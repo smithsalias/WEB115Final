@@ -15,9 +15,9 @@
 	font-family: helvetica;
 	background-color: #7895A2;
 }
-
 body {
 	background-color: #517281;
+	margin:10px 5px 15px 20px;
 }
 
 h4 {
@@ -27,37 +27,38 @@ h4 {
 
 
 a:link {
-       text-decoration: underline;
        color: #F4D27A;
+       text-decoration: none;
 }
 a:visited {
           color: #517281;
+          text-decoration: none; 
 }
 
 a:hover {
         color: #517281;
 }
 
-nav {
-	position: fixed;
-        font-family: helvetica, Verdana, sans-serif;
-        color: #AFC1CC;
-        background-color: #AFC1CC;
-        text-align: center;
-        margin: 10px;
-        padding: 10px;
-}
 #button{
-        border: 1px solid #F4D27A;
+    border: 1px solid #F4D27A;
 	border-radius: 5px;
 	font-family: helvetica, Verdana, sans-serif;
-	background-color: #7895A2;
+	background-color: #AFC1CC;
 	height: 30px;
-	width: 150px;
+	width: 70px;
 	color: #AFC1CC
 	text-align:center;
+	display:  inline-block;
+	margin:3px;
+	padding: 0px;
+	float: left;
 }
-
+nav {
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	position: fixed;
+}
 p {
 	font-family: Verdana;
 	font-size: 12px;
@@ -79,11 +80,12 @@ ul {
 }
 
 img {
-        border-top-left-radius: 15px;
+    border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 	border-bottom-right-radius: 15px;
 	border-bottom-left-radius: 15px;
 	box-shadow: rgba(0,0,0,0.2) 10px 10px;
+
 }
 
 
